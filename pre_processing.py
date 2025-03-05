@@ -9,7 +9,7 @@ dataset = remove_duplicated_lines(dataset)
 
 dataset.info()
 
-plot_histogram(dataset, 'sepal_length')
+plot_histogram(dataset)
 
 print(dataset.describe(include='all'))
 
